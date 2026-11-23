@@ -1,0 +1,20 @@
+<!-- 1. HTML: Yeh button banata hai -->
+<button id="myBtn" onclick="changeText()">Mujhe Click Karein</button>
+
+<!-- 2. CSS: Yeh button ko neela (blue) aur khoobsurat banata hai -->
+<style>
+  button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+  }
+</style>
+
+<!-- 3. JavaScript: Yeh click karne par button ka text badalti hai -->
+<script>
+  function changeText() {
+    document.getElementById("myBtn").innerText = "Shukriya!";
+  }
+</script>
